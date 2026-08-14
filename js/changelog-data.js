@@ -56,11 +56,11 @@ window.BITACORA_CHANGELOG = [
     at: "2026-08-14T09:30:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
-    title: "Avisos automáticos por correo y WhatsApp",
+    title: "Avisos automáticos por correo",
     status: "proposal",
     details: [
       "Recordatorio a cada contratista de la fecha límite para enviar documentos",
-      "Canales: correo y WhatsApp, disparados según las ventanas del calendario activo",
+      "Canal: correo, disparado según las ventanas del calendario activo",
       "Complementa el seguimiento manual del ciclo",
     ],
   },
