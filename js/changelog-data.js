@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T12:25:00-03:00",
+    module: "Operarios",
+    moduleHref: "propuestas/operarios.html",
+    title: "Al clicar la foto se abre la cédula completa",
+    status: "done",
+    details: [
+      "En Documentos → Funcionarios, la foto del padrón abre un visor a pantalla",
+      "Se muestra el frente y dorso de la C.I. del funcionario, con nombre y número",
+    ],
+  },
+  {
     at: "2026-08-15T11:50:00-03:00",
     module: "Operarios",
     moduleHref: "propuestas/operarios.html",
