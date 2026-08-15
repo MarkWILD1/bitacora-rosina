@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T11:32:00-03:00",
+    module: "Bitácora",
+    moduleHref: "index.html",
+    title: "La bitácora usa la marca Auditare (A con check)",
+    status: "done",
+    details: [
+      "El menú lateral deja la letra A y muestra el ícono blanco",
+      "El encabezado de cada página lleva la misma marca sobre el degradé burgundy",
+      "El favicon de la bitácora pasa a ser esa marca",
+    ],
+  },
+  {
     at: "2026-08-15T11:29:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
