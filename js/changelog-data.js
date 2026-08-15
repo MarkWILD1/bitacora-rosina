@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T11:19:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "La sidebar y el favicon usan la marca Auditare (A con check)",
+    status: "done",
+    details: [
+      "El menú lateral (escritorio y móvil) muestra el ícono junto al nombre Auditare",
+      "El favicon de la app pasa a ser esa misma marca, sin el texto del lockup",
+    ],
+  },
+  {
     at: "2026-08-15T11:01:00-03:00",
     module: "Bitácora",
     moduleHref: "index.html",
