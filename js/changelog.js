@@ -29,7 +29,7 @@
     vehiculos: ["vehiculos"],
     informes: ["informes"],
     bitacora: ["bitacora"],
-    fases: ["fases"],
+    comercial: ["comercial"],
   };
 
   function escapeHtml(str) {

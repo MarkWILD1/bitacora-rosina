@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T12:38:00-03:00",
+    module: "Comercial",
+    moduleHref: "propuestas/comercial.html",
+    title: "Propuesta de implementación y mantenimiento del sistema",
+    status: "proposal",
+    details: [
+      "Implementación USD 10.000: tres perfiles, ciclo de auditoría, documentos, revisión e informes",
+      "Mantenimiento USD 100 por mes: soporte, corrección de errores y actualizaciones de seguridad",
+      "Pago de la implementación en dos cuotas iguales: 50 % al inicio y 50 % al cierre",
+    ],
+  },
+  {
     at: "2026-08-15T12:36:00-03:00",
     module: "Operarios",
     moduleHref: "propuestas/operarios.html",
