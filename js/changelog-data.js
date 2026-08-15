@@ -5,6 +5,16 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T10:52:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "Documentos pasa al segundo lugar de la sidebar, debajo de Tablero",
+    status: "done",
+    details: [
+      "El menú del auditor queda: Tablero, Documentos, Calendarios, Solicitudes, Revisión e Informes",
+    ],
+  },
+  {
     at: "2026-08-15T10:50:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
