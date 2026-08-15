@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T11:50:00-03:00",
+    module: "Operarios",
+    moduleHref: "propuestas/operarios.html",
+    title: "El funcionario carga C.I., carné y libreta desde su propio portal",
+    status: "done",
+    details: [
+      "Hay una pantalla de carga en /funcionario: se identifica con la cédula y la empresa",
+      "Sube PDF o foto de cámara de los tres documentos y confirma las fechas de vencimiento",
+      "El padrón del auditor (Documentos → Funcionarios) muestra la foto recortada de la C.I. y las tres vigencias",
+    ],
+  },
+  {
     at: "2026-08-15T11:32:00-03:00",
     module: "Bitácora",
     moduleHref: "index.html",
