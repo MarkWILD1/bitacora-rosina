@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T12:36:00-03:00",
+    module: "Operarios",
+    moduleHref: "propuestas/operarios.html",
+    title: "Al clicar el rostro se ven cédula y libreta, una al lado de la otra",
+    status: "done",
+    details: [
+      "La foto del padrón es la recortada del documento, no un retrato genérico",
+      "El visor abre en dos columnas: Cédula de identidad y Libreta de conducir",
+      "En la libreta se muestran frente y dorso, con el vencimiento del reverso",
+    ],
+  },
+  {
     at: "2026-08-15T12:30:00-03:00",
     module: "Operarios",
     moduleHref: "propuestas/operarios.html",
