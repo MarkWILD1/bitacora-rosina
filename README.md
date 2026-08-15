@@ -1,6 +1,6 @@
-# Hub Rosina — Actualizaciones y propuestas
+# Bitácora Auditare — Actualizaciones y propuestas
 
-Sitio HTML estático para seguir el estado de las implementaciones del sistema Rosina (auditorías P.A.P.A.).
+Sitio HTML estático para seguir el estado de las implementaciones del sistema Auditare (auditorías P.A.P.A.).
 
 ## Sitio en vivo
 
@@ -35,7 +35,7 @@ Para registrar uno nuevo: agregá un objeto al **principio** de `js/changelog-da
 | `propuestas/vehiculos.html` | Feed Vehículos |
 | `propuestas/informes.html` | Feed Informes |
 | `propuestas/_plantilla.html` | Plantilla para nuevas propuestas |
-| `css/styles.css` | Tipografía y paleta Rosina compartida |
+| `css/styles.css` | Tipografía y paleta Auditare compartida |
 
 ## Estados
 

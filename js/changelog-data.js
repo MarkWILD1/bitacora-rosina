@@ -1,9 +1,21 @@
 /**
- * Bitácora Rosina — feed cronológico.
+ * Bitácora Auditare — feed cronológico.
  * REGLA: las entradas nuevas van AL PRINCIPIO del array (más reciente arriba).
  * at = fecha/hora ISO con zona -03:00 (Uruguay).
  */
 window.BITACORA_CHANGELOG = [
+  {
+    at: "2026-08-15T11:01:00-03:00",
+    module: "Bitácora",
+    moduleHref: "index.html",
+    title: "La bitácora pasa a llamarse Bitácora Auditare",
+    status: "done",
+    details: [
+      "El wordmark del encabezado y el menú lateral quedan Auditare",
+      "La marca de la sidebar pasa de R a A",
+      "El pie de todas las páginas dice Bitácora · Auditare",
+    ],
+  },
   {
     at: "2026-08-15T10:58:00-03:00",
     module: "Fases",
