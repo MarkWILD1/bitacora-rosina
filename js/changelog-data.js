@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T11:29:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "La marca de la sidebar queda en blanco, sin el recuadro negro",
+    status: "done",
+    details: [
+      "Hay una versión blanca de la A con check, en SVG y PNG, con fondo transparente",
+      "El menú lateral usa esa marca sobre el plum, sin el borde negro del lockup original",
+    ],
+  },
+  {
     at: "2026-08-15T11:19:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
