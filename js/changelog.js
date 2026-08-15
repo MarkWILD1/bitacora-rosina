@@ -24,6 +24,7 @@
     calendarios: ["calendarios"],
     solicitudes: ["solicitudes"],
     revision: ["revision"],
+    documentos: ["documentos"],
     operarios: ["operarios"],
     vehiculos: ["vehiculos"],
     informes: ["informes"],

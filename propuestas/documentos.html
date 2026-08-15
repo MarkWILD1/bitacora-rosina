@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Propuesta — Rosina, auditorías P.A.P.A." />
-  <title>Nueva propuesta — Rosina</title>
+  <meta name="description" content="Visor del checklist discriminado en Contratista/empresa, Vehículos y Funcionarios." />
+  <title>Documentos — Rosina</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -37,7 +37,7 @@
           <p class="sidebar__group-label">Actualizaciones</p>
           <ul class="sidebar__nav">
             <li>
-              <a class="sidebar__link" href="../index.html" aria-current="page" title="Resumen">
+              <a class="sidebar__link" href="../index.html" title="Resumen">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" />
                   <rect x="9" y="3" width="6" height="4" rx="1" />
@@ -86,7 +86,7 @@
               </a>
             </li>
             <li>
-              <a class="sidebar__link" href="documentos.html" title="Documentos">
+              <a class="sidebar__link" href="documentos.html" aria-current="page" title="Documentos">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path d="M3 7a2 2 0 0 1 2-2h5l2 2h7a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                 </svg>
@@ -147,7 +147,7 @@
             <path d="M4 7h16M4 12h16M4 17h16" />
           </svg>
         </button>
-        <span class="app__bar-title">Nueva propuesta</span>
+        <span class="app__bar-title">Documentos</span>
       </header>
 
       <div class="wrap">
@@ -157,50 +157,12 @@
         </header>
 
         <main class="card">
-          <!--
-            Cómo usar esta plantilla:
-            1. Copiá este archivo con un nombre nuevo, por ejemplo: avisos.html
-            2. Completá título, resumen, estado y alcance.
-            3. Agregá el ítem en la sección "Propuestas" de la sidebar (todas las páginas).
-            4. Registrá la propuesta en js/changelog-data.js (arriba del array) y poné data-module en #changelog.
-          -->
-          <p class="kicker">Propuesta · <span class="badge badge--proposal">Propuesta</span></p>
-          <h1 class="display" id="pageTitle">Título de la propuesta</h1>
-          <p class="meta">
-            Resumen breve: qué problema resuelve, para quién es y qué se entregará.
-          </p>
+          <p class="kicker">Seguimiento operativo</p>
+          <h1 class="display" id="pageTitle">Documentos</h1>
+          <p class="meta">Un tab en la sidebar con tres frentes internos: Contratista/empresa, Vehículos y Funcionarios. Revisión sigue siendo la cola de control; acá se mira el checklist por tipo.</p>
 
-          <div id="changelog" class="changelog" data-module="nombre" aria-live="polite" aria-label="Historial de implementaciones">
+          <div id="changelog" class="changelog" data-module="documentos" aria-live="polite" aria-label="Historial de implementaciones">
             <p class="empty-slot">Cargando actualizaciones…</p>
-          </div>
-
-          <h2>Estado</h2>
-          <p>
-            <span class="badge badge--proposal">Propuesta</span>
-          </p>
-
-          <h2>Alcance</h2>
-          <div class="two-col">
-            <div class="panel">
-              <h3>Incluye</h3>
-              <ul>
-                <li>Ítem incluido 1</li>
-                <li>Ítem incluido 2</li>
-                <li>Ítem incluido 3</li>
-              </ul>
-            </div>
-            <div class="panel">
-              <h3>No incluye</h3>
-              <ul>
-                <li>Ítem excluido 1</li>
-                <li>Ítem excluido 2</li>
-              </ul>
-            </div>
-          </div>
-
-          <h2>Notas</h2>
-          <div class="note">
-            Observaciones, dependencias o plazos tentativos.
           </div>
 
           <div class="button-row" style="margin-top: 28px;">
