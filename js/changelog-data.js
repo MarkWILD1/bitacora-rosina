@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T10:56:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "Al clicar un mes se ven los contratistas y los informes de ese período",
+    status: "done",
+    details: [
+      "Cada mes de la lista abre el detalle del período debajo de la tabla",
+      "Se listan todos los contratistas asociados a ese calendario",
+      "Los informes quedan filtrados por el mes elegido; septiembre (borrador) muestra el vacío",
+    ],
+  },
+  {
     at: "2026-08-15T10:55:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
