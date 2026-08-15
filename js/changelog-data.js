@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T12:30:00-03:00",
+    module: "Operarios",
+    moduleHref: "propuestas/operarios.html",
+    title: "La libreta guarda el vencimiento del dorso y se puede abrir completa",
+    status: "done",
+    details: [
+      "El padrón toma la fecha “válido hasta” del reverso de la libreta",
+      "Al clicar la columna de libreta se ve frente y dorso del permiso",
+    ],
+  },
+  {
     at: "2026-08-15T12:25:00-03:00",
     module: "Operarios",
     moduleHref: "propuestas/operarios.html",
