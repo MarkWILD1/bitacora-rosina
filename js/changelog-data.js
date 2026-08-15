@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T19:30:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "El auditor entra por una pantalla de ingreso corporativa",
+    status: "done",
+    details: [
+      "La app abre en /login con el ícono blanco de Auditare sobre el panel plum",
+      "Con correo y clave de demostración se entra al tablero; sin sesión no se ve el ciclo",
+      "Desde la barra superior se puede cerrar la sesión y volver al ingreso",
+    ],
+  },
+  {
     at: "2026-08-15T12:38:00-03:00",
     module: "Comercial",
     moduleHref: "propuestas/comercial.html",
