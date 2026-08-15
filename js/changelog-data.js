@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T10:55:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "El wordmark de la sidebar pasa de Rosina a Auditare",
+    status: "done",
+    details: [
+      "El nombre en el menú lateral (escritorio y móvil) queda Auditare",
+      "El pie sigue diciendo Auditorías P.A.P.A.",
+    ],
+  },
+  {
     at: "2026-08-15T10:52:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
