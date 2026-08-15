@@ -29,6 +29,7 @@
     vehiculos: ["vehiculos"],
     informes: ["informes"],
     bitacora: ["bitacora"],
+    fases: ["fases"],
   };
 
   function escapeHtml(str) {

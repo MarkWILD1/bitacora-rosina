@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T10:58:00-03:00",
+    module: "Fases",
+    moduleHref: "propuestas/fases.html",
+    title: "Arranca la fase 1: diseño y maquetación de la interfaz",
+    status: "progress",
+    details: [
+      "El desarrollo queda organizado en cuatro fases: Inicio, Backend, Prueba y Producción",
+      "Fase 1 (en curso): maquetación y diseño UI de las pantallas del auditor",
+      "Siguen: cableado del backend, prueba en uso directo, y salida a producción con soporte",
+    ],
+  },
+  {
     at: "2026-08-15T10:56:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
