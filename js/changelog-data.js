@@ -5,6 +5,30 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T10:50:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "Tab Documentos con tres frentes: empresa, vehículos y funcionarios",
+    status: "done",
+    details: [
+      "La sidebar del auditor suma Documentos y deja de mostrar Operarios y Vehículos como tabs sueltos",
+      "Adentro hay tres pestañas: Contratista/empresa, Vehículos y Funcionarios",
+      "Los padrones de flota y personal se reutilizan; las rutas viejas redirigen al frente que corresponde",
+    ],
+  },
+  {
+    at: "2026-08-15T10:45:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "Fases del ciclo sin siglas: ENTREGA, CONTROL, RECTIFICACIÓN e INFORME FINAL",
+    status: "done",
+    details: [
+      "La línea de tiempo, los badges y las tablas dejan de mostrar IED–FED, ICD–FCD, IRD–FRD e ICFD–FCFD",
+      "La cuarta ventana pasa a llamarse INFORME FINAL en lugar de control final",
+      "El cambio queda aplicado en Tablero, Calendarios, Solicitudes, Revisión y la documentación del producto",
+    ],
+  },
+  {
     at: "2026-08-14T10:04:00-03:00",
     module: "Bitácora",
     moduleHref: "index.html",
