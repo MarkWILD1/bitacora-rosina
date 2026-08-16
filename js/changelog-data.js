@@ -5,6 +5,29 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-15T21:50:00-03:00",
+    module: "Comercial",
+    moduleHref: "propuestas/comercial.html",
+    title: "Prototipo publicado para que el cliente lo recorra",
+    status: "done",
+    details: [
+      "Código en el repo privado github.com/MarkWILD1/auditare",
+      "Demo en vivo en auditare.vercel.app",
+      "Ingreso de demostración: rosina@auditare.uy / papa2026",
+    ],
+  },
+  {
+    at: "2026-08-15T21:35:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "Al ingresar, el ícono de Auditare vuela del centro a la sidebar",
+    status: "done",
+    details: [
+      "Después del login el ícono ocupa el centro de la pantalla",
+      "Luego se achica y se coloca en el logo de la barra lateral",
+    ],
+  },
+  {
     at: "2026-08-15T19:30:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
