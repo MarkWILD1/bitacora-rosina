@@ -734,6 +734,17 @@ a.changelog-entry__module:hover {
   opacity: 0.55;
 }
 
+.changelog-entry__link {
+  color: var(--burgundy);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.changelog-entry__link:hover {
+  color: var(--plum);
+}
+
 .module-links {
   display: flex;
   flex-wrap: wrap;

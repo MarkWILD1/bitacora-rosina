@@ -40,6 +40,17 @@
       .replace(/"/g, "&quot;");
   }
 
+  function linkify(escaped) {
+    return escaped.replace(/https?:\/\/[^\s<]+/g, (url) => {
+      const href = url.replace(/[.,;:)]+$/, "");
+      const trailing = url.slice(href.length);
+      return (
+        `<a class="changelog-entry__link" href="${href}" target="_blank" rel="noopener noreferrer">${href}</a>` +
+        trailing
+      );
+    });
+  }
+
   function formatStamp(iso) {
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return { date: "—", time: "—" };
@@ -139,7 +150,7 @@
       const details = pickList(entry.details);
       const detailsHtml = details.length
         ? `<ul class="changelog-entry__details">${details
-            .map((d) => `<li>${escapeHtml(d)}</li>`)
+            .map((d) => `<li>${linkify(escapeHtml(d))}</li>`)
             .join("")}</ul>`
         : "";
 
