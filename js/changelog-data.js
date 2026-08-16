@@ -11,7 +11,6 @@ window.BITACORA_CHANGELOG = [
     title: "Prototipo publicado para que el cliente lo recorra",
     status: "done",
     details: [
-      "Código en el repo privado https://github.com/MarkWILD1/auditare",
       "Demo en vivo: https://auditare.vercel.app/",
       "Usuario: rosina@auditare.uy",
       "Contraseña: papa2026",
