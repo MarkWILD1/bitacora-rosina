@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-24T18:52:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "El ciclo se sigue en un tablero Kanban de cinco columnas",
+    status: "done",
+    details: [
+      "Cada contratista es una tarjeta: Entrega, Control, Primer informe, Rectificación y Segundo informe",
+      "Se puede arrastrar la tarjeta o moverla desde el detalle",
+      "Al abrir un contratista se ven entrega, pendientes, observaciones, personal, vehículos y documentos en revisión",
+    ],
+  },
+  {
     at: "2026-08-24T18:32:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
