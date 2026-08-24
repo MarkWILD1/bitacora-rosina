@@ -20,6 +20,7 @@
   };
 
   const MODULE_ALIASES = {
+    empresas: ["empresas"],
     tablero: ["tablero"],
     calendarios: ["calendarios"],
     solicitudes: ["solicitudes"],

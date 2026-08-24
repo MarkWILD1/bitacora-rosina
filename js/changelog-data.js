@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-24T18:32:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "El auditor elige la empresa contratante antes de ver el ciclo",
+    status: "done",
+    details: [
+      "Después del ingreso se abre la lista de empresas (FIMSA y COFUSA en la demo)",
+      "Al entrar a una empresa, Tablero, Documentos, Calendarios, Solicitudes, Revisión e Informes muestran solo sus contratistas",
+      "Desde la barra superior se puede cambiar de empresa sin salir de la sesión",
+    ],
+  },
+  {
     at: "2026-08-15T21:50:00-03:00",
     module: "Comercial",
     moduleHref: "propuestas/comercial.html",
