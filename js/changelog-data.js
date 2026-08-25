@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-25T08:59:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "Se quitó la franja de cinco fases de todas las pantallas",
+    status: "done",
+    details: [
+      "Ya no aparece debajo de la barra superior en Tablero, Documentos, Calendarios, Solicitudes, Revisión ni Informes",
+      "El ciclo se sigue en las columnas del tablero Kanban",
+    ],
+  },
+  {
     at: "2026-08-24T18:52:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
