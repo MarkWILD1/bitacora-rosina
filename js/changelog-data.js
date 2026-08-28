@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:43:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "El contador edita usuario y PIN de 6 dígitos",
+    status: "done",
+    details: [
+      "En Accesos cada contratista y empresa tiene usuario y PIN editables, con Guardar",
+      "Ya no se usa contraseña: el ingreso de contratista y empresa es con PIN de 6 dígitos",
+      "El acceso sigue dependiendo de Otorgar; el contador entra igual con su clave",
+    ],
+  },
+  {
     at: "2026-08-28T12:42:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
