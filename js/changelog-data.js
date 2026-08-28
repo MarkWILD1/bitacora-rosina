@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:53:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "Socios del sistema con el mismo poder que el contador",
+    status: "done",
+    details: [
+      "En Accesos se da de alta un socio (nombre, usuario y PIN de 6 dígitos) y queda otorgado",
+      "Entra al mismo sistema: empresas, tablero, Accesos y el resto del ciclo",
+      "Rosina queda como titular; si se revoca a un socio, en el próximo ingreso ya no entra",
+    ],
+  },
+  {
     at: "2026-08-28T12:52:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
