@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:48:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "La lista de empresas queda antes de abrir el sistema, y se puede dar de alta una nueva",
+    status: "done",
+    details: [
+      "Después del ingreso se ve solo la lista de empresas contratantes, sin el menú del ciclo",
+      "Al clicar una empresa se abre el tablero y el resto de pantallas de esa empresa",
+      "Hay un botón para ingresar una empresa nueva (nombre y rubro); arranca sin contratistas",
+    ],
+  },
+  {
     at: "2026-08-28T12:47:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
