@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:45:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "El contador otorga ingreso a contratista y empresa contratante",
+    status: "done",
+    details: [
+      "En Accesos se ven correo y contraseña de cada uno, con Otorgar / Revocar",
+      "El contratista entra a su portal y carga Anexo A y Anexo B",
+      "Sin confirmar la responsabilidad, los datos no se suben",
+    ],
+  },
+  {
     at: "2026-08-28T12:44:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
