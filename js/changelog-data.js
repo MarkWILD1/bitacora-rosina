@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:50:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "Traen los datos y las observaciones de la revisión",
+    status: "done",
+    details: [
+      "Cada informe muestra el plan de trabajo, el estado de cada ítem y el texto completo de las observaciones",
+      "Se filtra por mes y por contratista; un mes sin servicio queda vacío",
+      "El mismo informe se abre desde Calendarios con Ver informe",
+    ],
+  },
+  {
     at: "2026-08-28T12:49:00-03:00",
     module: "Revisión",
     moduleHref: "propuestas/revision.html",
