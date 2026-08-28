@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:44:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "Los anexos cargados se ven en cada contratista",
+    status: "done",
+    details: [
+      "El personal y los vehículos del Anexo alimentan los padrones",
+      "La empresa contratante ve sus contratistas y recibe aviso al subir un anexo",
+      "El contador ve las mismas notificaciones en la campana",
+    ],
+  },
+  {
     at: "2026-08-28T12:43:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
