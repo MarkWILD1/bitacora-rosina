@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:51:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "Semáforo de avance por contratista",
+    status: "done",
+    details: [
+      "Rojo sin envío, amarillo faltan datos, verde en fecha; se ve en Tablero, Solicitudes, Documentos, portal de la empresa y portal del contratista",
+      "El color sale del porcentaje de entrega y de si hay Anexo; las observaciones no cambian el semáforo",
+      "Forestal Arapey queda en rojo (no mandó nada) y Servicios Forestales Rivera en verde (checklist completo)",
+    ],
+  },
+  {
     at: "2026-08-28T12:50:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
