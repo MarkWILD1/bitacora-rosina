@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:42:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "Empresas primero, contratistas al desplegar",
+    status: "done",
+    details: [
+      "La lista muestra cada empresa contratante plegada (FIMSA, COFUSA, UPM)",
+      "Al abrir una empresa se ven sus contratistas, con usuario, PIN y Otorgar / Revocar",
+      "Si no hay contratistas, el bloque lo dice",
+    ],
+  },
+  {
     at: "2026-08-28T12:41:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
