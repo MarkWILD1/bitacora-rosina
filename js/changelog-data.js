@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:46:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "Lista de contratistas con certificados, vehículos y funcionarios adentro",
+    status: "done",
+    details: [
+      "Se quitaron las pestañas Empresa / Vehículos / Funcionarios",
+      "Cada contratista se abre y muestra sus documentos de empresa, su flota y su personal",
+      "Si no hay vehículos o funcionarios, el bloque lo dice",
+    ],
+  },
+  {
     at: "2026-08-28T12:45:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
