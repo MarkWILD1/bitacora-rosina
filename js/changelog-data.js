@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:40:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "Filtro por mes y contratista de la empresa elegida",
+    status: "done",
+    details: [
+      "Solo se listan contratistas de la contratante activa que brindaron servicio en ese mes",
+      "El desplegable de contratista y los informes siguen el mismo recorte",
+      "Quien no tuvo servicio en el período no aparece (p. ej. Forestal Arapey en FIMSA)",
+    ],
+  },
+  {
     at: "2026-08-25T08:59:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
