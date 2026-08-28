@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:41:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "Raya en el menú que lo separa del resto",
+    status: "done",
+    details: [
+      "En la sidebar, Accesos queda debajo de una línea fina",
+      "El resto de pestañas (Tablero a Informes) sigue agrupado arriba",
+    ],
+  },
+  {
     at: "2026-08-28T12:40:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",

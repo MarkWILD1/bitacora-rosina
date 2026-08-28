@@ -29,6 +29,7 @@
     operarios: ["operarios"],
     vehiculos: ["vehiculos"],
     informes: ["informes"],
+    accesos: ["accesos"],
     bitacora: ["bitacora"],
     comercial: ["comercial"],
   };
