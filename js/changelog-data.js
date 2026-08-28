@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:47:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "El nombre de la contratante se muestra en la sidebar, debajo del logo",
+    status: "done",
+    details: [
+      "FIMSA (u otra empresa activa) aparece con destaque bajo Auditare, no en la barra superior",
+      "En la barra superior queda el período (Agosto 2026) y el estado",
+      "Clic en el nombre vuelve a la lista de empresas; en el menú móvil se ve igual",
+    ],
+  },
+  {
     at: "2026-08-28T12:46:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
