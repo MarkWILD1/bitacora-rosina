@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:49:00-03:00",
+    module: "Revisión",
+    moduleHref: "propuestas/revision.html",
+    title: "Lista de chequeo del plan de trabajo, con observaciones por ítem",
+    status: "done",
+    details: [
+      "Cada contratista se abre y muestra los 8 bloques del plan (Documentación a BSE), en el mismo orden de los trabajos de auditoría",
+      "En cada ítem se abre un modal para marcar OK / observación / no enviado / no aplica y escribir la nota",
+      "Las observaciones quedan guardadas por contratista para usarlas después en Informes",
+    ],
+  },
+  {
     at: "2026-08-28T12:48:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
