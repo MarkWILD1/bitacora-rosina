@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-08-28T12:52:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "Se quitó “Carga funcionario” de la barra superior",
+    status: "done",
+    details: [
+      "El atajo iba al portal de carga del funcionario, que no es una acción del contador",
+      "En la barra quedan notificaciones, Cambiar empresa, perfil y Cerrar sesión",
+      "El portal /funcionario sigue existiendo; se entra por su propia URL",
+    ],
+  },
+  {
     at: "2026-08-28T12:51:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
