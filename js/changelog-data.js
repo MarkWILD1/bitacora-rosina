@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T10:17:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "La pantalla de empresas con accesos está en producción",
+    status: "done",
+    details: [
+      "Demo en vivo: https://auditare.vercel.app/",
+      "Después del ingreso se ven las empresas y, debajo, los accesos con usuario y PIN",
+    ],
+  },
+  {
     at: "2026-09-23T10:09:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
