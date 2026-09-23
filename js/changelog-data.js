@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T11:46:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "El ingreso ya usa la base del proyecto Auditoría",
+    status: "done",
+    details: [
+      "Empresas, contratistas, funcionarios y cuentas de acceso quedaron cargados en Supabase",
+      "El titular entra con su usuario; FIMSA y COFUSA ya tienen el acceso otorgado",
+      "Los contratistas existen en la base y entran recién cuando se les otorga el acceso",
+    ],
+  },
+  {
     at: "2026-09-23T11:25:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
