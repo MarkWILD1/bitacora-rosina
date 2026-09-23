@@ -5,6 +5,29 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T13:10:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El PDF de la auditoría usa el formato del estudio",
+    status: "done",
+    details: [
+      "Membrete de Estudio Muslera & Baraibar, tarjetas de cliente y período, y resumen con el estado general",
+      "Las observaciones van en bloques; los documentos vencidos salen en una tabla",
+      "El pie indica la fecha de generación, la página y que el informe es confidencial",
+    ],
+  },
+  {
+    at: "2026-09-23T13:05:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El PDF se guarda con el título del informe",
+    status: "done",
+    details: [
+      "El archivo se llama Auditoría Laboral, el contratista y el mes",
+      "La descarga termina en .pdf",
+    ],
+  },
+  {
     at: "2026-09-23T12:42:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
