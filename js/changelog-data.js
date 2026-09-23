@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T12:42:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El informe se descarga en PDF",
+    status: "done",
+    details: [
+      "En el informe del mes, Descargar PDF guarda la auditoría laboral",
+      "El archivo lleva el nombre del contratista y el mes",
+      "El PDF incluye el membrete, la empresa y los nueve apartados de observaciones",
+    ],
+  },
+  {
     at: "2026-09-23T12:40:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
