@@ -5,6 +5,19 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T11:25:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "Empresas y accesos pasan a guardarse en una base de datos",
+    status: "progress",
+    details: [
+      "El alta de empresas, los socios y los permisos quedan en la base y no se pierden al cerrar el navegador",
+      "El PIN se anota al crearlo o cambiarlo; después no se vuelve a mostrar",
+      "El nombre Auditare se cambia en un solo lugar cuando definan el nombre definitivo",
+      "Falta conectar el proyecto de base de datos para que el ingreso quede en uso",
+    ],
+  },
+  {
     at: "2026-09-23T10:34:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
