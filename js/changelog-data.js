@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T10:09:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "La pantalla de la auditora muestra también los accesos",
+    status: "done",
+    details: [
+      "Después del ingreso, junto a FIMSA y COFUSA, se ven socios, empresas y contratistas",
+      "Ahí se lee y se edita el usuario y el PIN, y se otorga o revoca el ingreso",
+      "No hace falta entrar a una empresa para administrar los accesos",
+    ],
+  },
+  {
     at: "2026-08-28T12:53:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
