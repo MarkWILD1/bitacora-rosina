@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T12:40:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El informe del mes sale como la auditoría laboral",
+    status: "done",
+    details: [
+      "Membrete con las contadoras, el procedimiento P.A.P.A., contratista, empresa y mes",
+      "Nueve apartados de observaciones; si no hay hallazgos, queda «Sin observaciones»",
+      "Lo que falta o está vencido sale del padrón; el texto del auditor entra en el apartado que corresponde",
+    ],
+  },
+  {
     at: "2026-09-23T11:46:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
