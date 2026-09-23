@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-23T10:34:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "FIMSA y COFUSA entran con el PIN sin un otorgamiento extra",
+    status: "done",
+    details: [
+      "El usuario y el PIN de la empresa estaban bien; el ingreso fallaba porque el acceso figuraba sin otorgar",
+      "FIMSA y COFUSA quedan otorgadas de entrada y abren el portal de la contratante",
+      "La auditora puede revocar ese ingreso desde Accesos",
+    ],
+  },
+  {
     at: "2026-09-23T10:17:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
