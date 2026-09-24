@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-24T13:50:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "La empresa contratante se llama Fymnsa",
+    status: "done",
+    details: [
+      "En la lista, el tablero y los accesos el nombre aparece como Fymnsa",
+      "El usuario de ingreso de la empresa es fymnsa@empresa.uy",
+    ],
+  },
+  {
     at: "2026-09-23T13:10:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
