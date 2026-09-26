@@ -1,6 +1,6 @@
-# Bitácora Auditare — Actualizaciones y propuestas
+# Bitácora Audita — Actualizaciones y propuestas
 
-Sitio HTML estático para seguir el estado de las implementaciones del sistema Auditare (auditorías P.A.P.A.).
+Sitio HTML estático para seguir el estado de las implementaciones del sistema Audita (auditorías P.A.P.A.).
 
 ## Sitio en vivo
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   Bitácora Auditare — GSAP + ScrollTrigger
+   Bitácora Audita — GSAP + ScrollTrigger
    ============================================================ */
 (function () {
   "use strict";

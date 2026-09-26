@@ -1,9 +1,21 @@
 /**
- * Bitácora Auditare — feed cronológico.
+ * Bitácora Audita — feed cronológico.
  * REGLA: las entradas nuevas van AL PRINCIPIO del array (más reciente arriba).
  * at = fecha/hora ISO con zona -03:00 (Uruguay).
  */
 window.BITACORA_CHANGELOG = [
+  {
+    at: "2026-09-26T20:50:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "El sistema pasa a llamarse Audita",
+    status: "done",
+    details: [
+      "El nombre visible, el título y el login muestran Audita",
+      "El pie dice Software de auditoría laboral",
+      "El usuario del titular queda rosina@audita.uy",
+    ],
+  },
   {
     at: "2026-09-26T20:40:00-03:00",
     module: "Marca",
