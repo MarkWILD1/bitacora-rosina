@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-26T20:10:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "Manual de marca AUDITA a partir del board",
+    status: "done",
+    details: [
+      "Nombre oficial AUDITA, con wordmark (A + tilde rosa), isotipo y lockup",
+      "Paleta completa muestreada del board: vinos, rosas, superficies, sage, terracota y apoyo",
+      "Página visual en Marca y tokens en marca.md",
+    ],
+  },
+  {
     at: "2026-09-24T13:50:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",

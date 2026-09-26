@@ -32,6 +32,7 @@
     accesos: ["accesos"],
     bitacora: ["bitacora"],
     comercial: ["comercial"],
+    marca: ["marca"],
   };
 
   function escapeHtml(str) {
