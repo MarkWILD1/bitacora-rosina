@@ -12,11 +12,20 @@ Firmas: Cra. Rosina Muslera | Cra. Gabriela Baraibar.
 
 ### Construcciones
 
+Archivos oficiales (no redibujar la A ni el check):
+
+| Archivo | Pieza |
+| --- | --- |
+| `img/audita-icon.png` | Isotipo: cuadrado redondeado vino, A blanca, check rosa cruzando el pico |
+| `img/audita-a.png` | A suelta: letra vino, mismo check rosa |
+
 | Pieza | Uso |
 | --- | --- |
-| Wordmark | AUDITA en vino, A custom (pico + tilde rosa). Fondos claros. |
-| Isotipo | Cuadrado redondeado vino, A marfil + tilde rosa. App icon, favicon, avatar. |
+| Wordmark | A oficial + UDITA. Fondos claros. |
+| Isotipo | `audita-icon.png`. App icon, favicon, avatar. |
 | Lockup | Isotipo + AUDITA + “Software de auditoría laboral”. |
+
+El check cruza el pico de la A (trazo corto a la izquierda, largo hacia arriba a la derecha). No es un acento pequeño arriba a la derecha.
 
 Zona de respiro: un “A” de alto a cada lado del wordmark. No distorsionar, no recolorear la tilde, no poner el isotipo sobre fondos de bajo contraste.
 

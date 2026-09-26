@@ -1099,26 +1099,50 @@ th {
   background: #f2e6e9;
 }
 
+.brand-official {
+  display: grid;
+  gap: 12px;
+}
+
+@media (min-width: 720px) {
+  .brand-official {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.brand-official__item {
+  margin: 0;
+}
+
+.brand-official__item img {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+  margin: 0 auto;
+}
+
 .brand-wordmark {
   display: flex;
   align-items: flex-end;
-  gap: 2px;
+  gap: 0;
   color: #481a41;
   line-height: 1;
 }
 
 .brand-wordmark__a {
   display: block;
-  width: 52px;
-  height: 58px;
+  width: auto;
+  height: 78px;
 }
 
 .brand-wordmark__letters {
-  font-family: Fraunces, Georgia, serif;
-  font-weight: 600;
-  font-size: 46px;
-  letter-spacing: 0.04em;
-  line-height: 0.82;
+  font-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 58px;
+  letter-spacing: -0.03em;
+  line-height: 0.78;
+  padding-bottom: 1px;
 }
 
 .brand-stage--vino .brand-wordmark {
@@ -1127,8 +1151,14 @@ th {
 
 .brand-icon {
   display: block;
-  width: 88px;
-  height: 88px;
+  width: 112px;
+  height: auto;
+}
+
+.brand-mark {
+  display: block;
+  width: auto;
+  height: 112px;
 }
 
 .brand-lockup {
@@ -1138,8 +1168,8 @@ th {
 }
 
 .brand-lockup .brand-icon {
-  width: 64px;
-  height: 64px;
+  width: 72px;
+  height: auto;
 }
 
 .brand-lockup__text {

@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../css/styles.css?v=4" />
+  <link rel="stylesheet" href="../css/styles.css?v=5" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -228,15 +228,25 @@
           </figure>
 
           <h2>Logo</h2>
-          <p>Tres construcciones. La A lleva siempre la tilde rosa; el resto de las letras va en vino.</p>
+          <p>
+            La A y el check son los archivos oficiales. No se redibujan.
+            El check cruza el pico de la A (trazo corto a la izquierda, largo hacia arriba a la derecha).
+          </p>
+
+          <h3>Archivos oficiales</h3>
+          <div class="brand-official">
+            <figure class="brand-official__item brand-stage brand-stage--marfil">
+              <img src="../img/audita-icon@3x.png" alt="Isotipo oficial AUDITA: A blanca y check rosa sobre cuadrado vino" />
+            </figure>
+            <figure class="brand-official__item brand-stage brand-stage--marfil">
+              <img src="../img/audita-a@3x.png" alt="A oficial AUDITA: letra vino y check rosa cruzando el pico" />
+            </figure>
+          </div>
 
           <h3>Wordmark</h3>
           <div class="brand-stage brand-stage--marfil">
             <div class="brand-wordmark" aria-label="AUDITA">
-              <svg class="brand-wordmark__a" viewBox="0 0 72 80" aria-hidden="true">
-                <path fill="currentColor" d="M36 6 6 76h13.2l6.2-16.4h21.2L52.8 76H66L36 6zm-6.8 46.2L36 28.4l6.8 23.8H29.2z" />
-                <path fill="#C89194" d="M16 36.5 31.2 50.2 58 18.8l-7.4-6.6L29.6 40.2 21.8 33z" />
-              </svg>
+              <img class="brand-wordmark__a" src="../img/audita-a@3x.png" alt="" />
               <span class="brand-wordmark__letters">UDITA</span>
             </div>
           </div>
@@ -244,29 +254,17 @@
           <h3>Isotipo</h3>
           <div class="two-col">
             <div class="brand-stage brand-stage--marfil">
-              <svg class="brand-icon" viewBox="0 0 100 100" role="img" aria-label="Isotipo AUDITA sobre marfil">
-                <rect width="100" height="100" rx="22" fill="#411D31" />
-                <path fill="#FAF7F6" d="M50 18 22 82h12.4l5.8-15.2h19.6L65.6 82H78L50 18zm-6.4 43.4L50 38.6l6.4 22.8H43.6z" />
-                <path fill="#D4A2A6" d="M27 40.2 43.4 54.6 70 24.2l-7-6.2L41.6 44.4 33.4 37z" />
-              </svg>
+              <img class="brand-icon" src="../img/audita-icon@3x.png" alt="Isotipo AUDITA sobre marfil" />
             </div>
-            <div class="brand-stage brand-stage--vino">
-              <svg class="brand-icon" viewBox="0 0 100 100" role="img" aria-label="Isotipo AUDITA sobre vino">
-                <rect width="100" height="100" rx="22" fill="#FAF7F6" />
-                <path fill="#411D31" d="M50 18 22 82h12.4l5.8-15.2h19.6L65.6 82H78L50 18zm-6.4 43.4L50 38.6l6.4 22.8H43.6z" />
-                <path fill="#C89194" d="M27 40.2 43.4 54.6 70 24.2l-7-6.2L41.6 44.4 33.4 37z" />
-              </svg>
+            <div class="brand-stage brand-stage--blush">
+              <img class="brand-mark" src="../img/audita-a@3x.png" alt="A oficial AUDITA sobre blush" />
             </div>
           </div>
 
           <h3>Lockup</h3>
           <div class="brand-stage brand-stage--blush">
             <div class="brand-lockup">
-              <svg class="brand-icon" viewBox="0 0 100 100" aria-hidden="true">
-                <rect width="100" height="100" rx="22" fill="#411D31" />
-                <path fill="#FAF7F6" d="M50 18 22 82h12.4l5.8-15.2h19.6L65.6 82H78L50 18zm-6.4 43.4L50 38.6l6.4 22.8H43.6z" />
-                <path fill="#D4A2A6" d="M27 40.2 43.4 54.6 70 24.2l-7-6.2L41.6 44.4 33.4 37z" />
-              </svg>
+              <img class="brand-icon" src="../img/audita-icon@3x.png" alt="" />
               <div class="brand-lockup__text">
                 <p class="brand-lockup__name">AUDITA</p>
                 <p class="brand-lockup__rubro">Software de auditoría laboral</p>
@@ -278,7 +276,7 @@
           <p>Dejar un “A” de alto libre a cada lado del wordmark. No rotar, no estirar, no recolorear la tilde ni apoyar el isotipo sobre fondos de bajo contraste.</p>
           <div class="dont-grid">
             <div class="dont"><strong>No estirar</strong>El wordmark mantiene su proporción. Si no entra, se usa el isotipo.</div>
-            <div class="dont"><strong>No cambiar la tilde</strong>El check es rosa <code>#C89194</code> / <code>#D4A2A6</code>, nunca verde ni blanco sobre vino.</div>
+            <div class="dont"><strong>No redibujar la A ni el check</strong>Usar <code>audita-a.png</code> y <code>audita-icon.png</code>. El check no es un acento arriba a la derecha: cruza el pico.</div>
             <div class="dont"><strong>No escribir Auditita</strong>El nombre oficial es AUDITA. El board original trae un error de generación.</div>
             <div class="dont"><strong>No usar el taupe de la foto</strong><code>#8C6B71</code> es del escritorio del board, no un color de interfaz.</div>
           </div>

@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-26T20:40:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "La A y el check del logo son los archivos oficiales",
+    status: "done",
+    details: [
+      "El isotipo y la A suelta salen de las imágenes oficiales, sin redibujar",
+      "El check cruza el pico de la A; no es un acento arriba a la derecha",
+    ],
+  },
+  {
     at: "2026-09-26T20:10:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
