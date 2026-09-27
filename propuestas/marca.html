@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="../css/styles.css?v=5" />
+  <link rel="stylesheet" href="../css/styles.css?v=6" />
 </head>
 <body class="app">
   <div class="app__shell">
@@ -229,8 +229,8 @@
 
           <h2>Logo</h2>
           <p>
-            La A y el check son los archivos oficiales. No se redibujan.
-            El check cruza el pico de la A (trazo corto a la izquierda, largo hacia arriba a la derecha).
+            Los archivos oficiales no se redibujan. El check cruza el pico de la A
+            (trazo corto a la izquierda, largo hacia arriba a la derecha).
           </p>
 
           <h3>Archivos oficiales</h3>
@@ -245,10 +245,10 @@
 
           <h3>Wordmark</h3>
           <div class="brand-stage brand-stage--marfil">
-            <div class="brand-wordmark" aria-label="AUDITA">
-              <img class="brand-wordmark__a" src="../img/audita-a@3x.png" alt="" />
-              <span class="brand-wordmark__letters">UDITA</span>
-            </div>
+            <img class="brand-wordmark-full" src="../img/audita-wordmark.png" alt="Wordmark oficial AUDITA" />
+          </div>
+          <div class="brand-stage brand-stage--vino" style="margin-top:12px">
+            <img class="brand-wordmark-full" src="../img/audita-wordmark-white.png" alt="Wordmark oficial AUDITA en claro, para fondos oscuros" />
           </div>
 
           <h3>Isotipo</h3>
@@ -266,7 +266,7 @@
             <div class="brand-lockup">
               <img class="brand-icon" src="../img/audita-icon@3x.png" alt="" />
               <div class="brand-lockup__text">
-                <p class="brand-lockup__name">AUDITA</p>
+                <img class="brand-wordmark-full" src="../img/audita-wordmark.png" alt="AUDITA" />
                 <p class="brand-lockup__rubro">Software de auditoría laboral</p>
               </div>
             </div>
@@ -276,7 +276,7 @@
           <p>Dejar un “A” de alto libre a cada lado del wordmark. No rotar, no estirar, no recolorear la tilde ni apoyar el isotipo sobre fondos de bajo contraste.</p>
           <div class="dont-grid">
             <div class="dont"><strong>No estirar</strong>El wordmark mantiene su proporción. Si no entra, se usa el isotipo.</div>
-            <div class="dont"><strong>No redibujar la A ni el check</strong>Usar <code>audita-a.png</code> y <code>audita-icon.png</code>. El check no es un acento arriba a la derecha: cruza el pico.</div>
+            <div class="dont"><strong>No redibujar la A ni el check</strong>Usar <code>audita-wordmark.png</code>, <code>audita-a.png</code> y <code>audita-icon.png</code>. El check no es un acento arriba a la derecha: cruza el pico.</div>
             <div class="dont"><strong>No escribir Auditita</strong>El nombre oficial es AUDITA. El board original trae un error de generación.</div>
             <div class="dont"><strong>No usar el taupe de la foto</strong><code>#8C6B71</code> es del escritorio del board, no un color de interfaz.</div>
           </div>

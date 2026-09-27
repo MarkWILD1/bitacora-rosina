@@ -1136,13 +1136,12 @@ th {
   height: 78px;
 }
 
-.brand-wordmark__letters {
-  font-family: "Source Sans 3", ui-sans-serif, system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 58px;
-  letter-spacing: -0.03em;
-  line-height: 0.78;
-  padding-bottom: 1px;
+.brand-wordmark-full {
+  display: block;
+  width: auto;
+  height: 72px;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .brand-stage--vino .brand-wordmark {

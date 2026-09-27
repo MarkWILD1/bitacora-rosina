@@ -18,12 +18,14 @@ Archivos oficiales (no redibujar la A ni el check):
 | --- | --- |
 | `img/audita-icon.png` | Isotipo: cuadrado redondeado vino, A blanca, check rosa cruzando el pico |
 | `img/audita-a.png` | A suelta: letra vino, mismo check rosa |
+| `img/audita-wordmark.png` | Logo largo oficial AUDITA (fondos claros) |
+| `img/audita-wordmark-white.png` | Logo largo en claro (fondos oscuros) |
 
 | Pieza | Uso |
 | --- | --- |
-| Wordmark | A oficial + UDITA. Fondos claros. |
+| Wordmark | `audita-wordmark.png` / `audita-wordmark-white.png`. No recomponer la A con texto. |
 | Isotipo | `audita-icon.png`. App icon, favicon, avatar. |
-| Lockup | Isotipo + AUDITA + “Software de auditoría laboral”. |
+| Lockup | Isotipo + wordmark + “Software de auditoría laboral”. |
 
 El check cruza el pico de la A (trazo corto a la izquierda, largo hacia arriba a la derecha). No es un acento pequeño arriba a la derecha.
 

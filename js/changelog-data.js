@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-26T20:55:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "El logo largo oficial entra al sistema y al manual",
+    status: "done",
+    details: [
+      "El wordmark AUDITA (A con check + letras) reemplaza el texto armado",
+      "En fondos oscuros se usa la versión clara; en claros, la oficial",
+    ],
+  },
+  {
     at: "2026-09-26T20:50:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
