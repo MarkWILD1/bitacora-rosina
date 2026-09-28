@@ -5,6 +5,20 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T09:35:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El contratista carga los documentos del ciclo con foto o PDF",
+    status: "done",
+    details: [
+      "En el portal hay una pestaña Documentos, junto a los Anexos A y B",
+      "Cada certificado, planilla y recibo pide sus datos y una foto con la cámara del celular, o un archivo",
+      "Si ya está el Anexo B, se carga el SOA, las cuotas y el último pago de cada vehículo",
+      "Si ya está el Anexo A, se cargan cédula, carné, libreta, contrato y recibo de uniforme",
+      "El auditor y la empresa contratante ven el estado Enviado y pueden abrir la prueba",
+    ],
+  },
+  {
     at: "2026-09-28T08:52:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
