@@ -5,6 +5,30 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T11:25:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "El ingreso ya no muestra una clave fija y los documentos de identidad piden sesión",
+    status: "done",
+    details: [
+      "La pantalla de ingreso ya no trae ni muestra la clave del contador",
+      "Los PIN nuevos se generan al azar",
+      "Cédulas, libretas y fotos de funcionarios no se abren sin sesión",
+    ],
+  },
+  {
+    at: "2026-09-28T10:40:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "Grilla mensual para definir las ventanas del ciclo",
+    status: "done",
+    details: [
+      "Cada día es una ficha con puntos de color por ventana: ENTREGA, CONTROL, RECTIFICACIÓN e INFORME FINAL",
+      "El auditor elige una ventana y marca el primer y el último día, mes a mes",
+      "El filtro de contratista, la tabla del período y los informes siguen debajo",
+    ],
+  },
+  {
     at: "2026-09-28T09:53:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
