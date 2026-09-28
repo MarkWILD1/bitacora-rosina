@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T09:53:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El año del portal queda fijo en el año actual",
+    status: "done",
+    details: [
+      "En Documentos, Anexo A y Anexo B el año se muestra y no se puede cambiar",
+      "El mes sigue eligiéndose de la lista",
+    ],
+  },
+  {
     at: "2026-09-28T09:49:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
