@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T08:04:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "Se puede cambiar el nombre o eliminar una empresa contratante",
+    status: "done",
+    details: [
+      "En cada empresa de la lista hay editar nombre y eliminar, sin abrir el ciclo",
+      "El nombre nuevo se ve en la tarjeta y en Accesos; el usuario de ingreso no cambia",
+      "Eliminar pide confirmación y borra la empresa, sus contratistas, documentos y accesos",
+    ],
+  },
+  {
     at: "2026-09-26T20:55:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
