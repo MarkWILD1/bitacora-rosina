@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T09:49:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El portal deja de avisar un desajuste al abrir el Anexo A",
+    status: "done",
+    details: [
+      "La primera fila de personal y de vehículos usa un identificador fijo al cargar",
+      "El servidor y el navegador muestran los mismos campos",
+    ],
+  },
+  {
     at: "2026-09-28T09:45:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
