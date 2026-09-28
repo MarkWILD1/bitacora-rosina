@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T09:45:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El mes del portal se elige en listas, sin texto libre",
+    status: "done",
+    details: [
+      "En Documentos, Anexo A y Anexo B el mes y el año se eligen de listas",
+      "El valor sigue siendo el nombre del mes y el año, por ejemplo Agosto 2026",
+      "Ese dato sigue uniendo los documentos con los anexos del mismo período",
+    ],
+  },
+  {
     at: "2026-09-28T09:35:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
