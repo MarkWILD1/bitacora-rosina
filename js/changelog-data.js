@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T08:52:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "En funcionarios se ven el contrato y la entrega de uniforme",
+    status: "done",
+    details: [
+      "Cada contratista tiene la columna Otros documentos en su padrón de funcionarios",
+      "El contrato de trabajo se puede abrir y ver",
+      "Se registra la entrega de uniforme con fecha de recibo y las opciones invierno y verano",
+    ],
+  },
+  {
     at: "2026-09-28T08:25:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
