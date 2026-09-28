@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-28T08:25:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "En vehículos se registran las cuotas y el último pago",
+    status: "done",
+    details: [
+      "Se quitó la columna BSE del padrón de vehículos",
+      "Cada vehículo muestra la cantidad de cuotas y la fecha del último pago",
+      "Se puede registrar el pago total en una sola cuota",
+    ],
+  },
+  {
     at: "2026-09-28T08:04:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
