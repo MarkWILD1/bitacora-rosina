@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-09-29T11:15:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "El ingreso se frena tras varios intentos fallidos",
+    status: "done",
+    details: [
+      "Si el usuario no existe, el PIN es incorrecto o el acceso no fue otorgado, el aviso es el mismo",
+      "Cinco fallos seguidos bloquean esa cuenta durante quince minutos",
+      "Veinte fallos desde la misma conexión bloquean esa conexión el mismo tiempo",
+    ],
+  },
+  {
     at: "2026-09-28T11:25:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
