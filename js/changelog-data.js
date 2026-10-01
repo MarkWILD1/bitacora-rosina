@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-01T08:32:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "El calendario del mes se ve más grande en el escritorio",
+    status: "done",
+    details: [
+      "En pantallas de escritorio la grilla del mes es más ancha y los días más altos",
+      "En el celular el tamaño queda igual",
+    ],
+  },
+  {
     at: "2026-10-01T08:15:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
