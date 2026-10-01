@@ -5,6 +5,30 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-01T09:21:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "El calendario del mes ocupa toda la pantalla en el escritorio",
+    status: "done",
+    details: [
+      "La grilla usa el ancho libre al lado de la barra y el alto que queda bajo el título",
+      "El panel del día acompaña esa altura",
+      "En el celular el tamaño queda igual",
+    ],
+  },
+  {
+    at: "2026-10-01T09:00:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "El logo de la sidebar usa el wordmark en alta resolución",
+    status: "done",
+    details: [
+      "La barra lateral y el menú del celular muestran el wordmark AUDITA nítido",
+      "El logo queda contenido en la altura del encabezado",
+      "Se sirve el archivo original, sin comprimirlo",
+    ],
+  },
+  {
     at: "2026-10-01T08:32:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
