@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-01T08:15:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "La entrega del contratista queda limitada a la ventana que marca el auditor",
+    status: "done",
+    details: [
+      "El contratista solo puede cargar Anexo A, Anexo B y documentos si hoy cae dentro de ENTREGA",
+      "El auditor puede extender solo la fecha de cierre, incluso al mes siguiente, y el portal vuelve a abrir si el nuevo límite incluye hoy",
+      "El calendario del auditor llega hasta el mes en curso",
+    ],
+  },
+  {
     at: "2026-09-29T11:15:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
