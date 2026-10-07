@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-07T11:20:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "La sidebar del escritorio usa el logotipo oficial",
+    status: "done",
+    details: [
+      "Auditor, empresa y contratista ven +LOGOTIPO-01 en la barra lateral",
+      "El menú del celular usa el mismo archivo",
+    ],
+  },
+  {
     at: "2026-10-07T11:13:00-03:00",
     module: "Empresas",
     moduleHref: "propuestas/empresas.html",
