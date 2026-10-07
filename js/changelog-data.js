@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-07T11:13:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "La empresa y el contratista trabajan con la misma barra lateral del auditor",
+    status: "done",
+    details: [
+      "La empresa ve a sus contratistas en el Tablero y, al abrir uno, lo que va subiendo",
+      "El contratista tiene Tablero con su fase, Anexo A, Anexo B, Documentos y Mis datos",
+      "Ninguno de los dos usa el tablero de columnas; el del auditor sigue igual",
+    ],
+  },
+  {
     at: "2026-10-01T09:21:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
