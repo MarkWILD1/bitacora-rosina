@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-07T11:48:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "La pestaña del navegador muestra solo el ícono del logotipo",
+    status: "done",
+    details: [
+      "El favicon usa el símbolo del logotipo oficial, sin el texto AUDITA",
+      "El ícono de Apple usa el mismo símbolo",
+    ],
+  },
+  {
     at: "2026-10-07T11:20:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
