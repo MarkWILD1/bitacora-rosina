@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-09T01:30:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "En Documentos se ve el enterado de cada contratista",
+    status: "done",
+    details: [
+      "Bajo el nombre del contratista queda la fecha, el dispositivo, el idioma, la pantalla y la IP",
+      "Ver datos abre el acuse completo del aviso",
+      "La campana sigue avisando en el momento; este registro queda en la lista",
+    ],
+  },
+  {
     at: "2026-10-09T01:05:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
