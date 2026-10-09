@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-09T01:05:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "El auditor habilita, mes a mes, quién puede enviar documentación",
+    status: "done",
+    details: [
+      "Cada mes lista a todos los contratistas de la empresa, no solo a los que ya estaban en el ciclo",
+      "Habilitar abre la carga de ese período; Revocar la cierra y deja lo ya entregado",
+      "Documentos, Anexo A y Anexo B quedan cerrados si el auditor no habilitó ese mes",
+    ],
+  },
+  {
     at: "2026-10-09T00:55:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
