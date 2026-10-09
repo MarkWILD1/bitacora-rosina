@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-09T01:34:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El enterado se ve al abrir el contratista",
+    status: "done",
+    details: [
+      "Con la ficha cerrada solo se ve el nombre, los vehículos y los funcionarios",
+      "Al desplegar el contratista aparece el acuse: fecha, dispositivo, idioma, pantalla e IP",
+    ],
+  },
+  {
     at: "2026-10-09T01:30:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
