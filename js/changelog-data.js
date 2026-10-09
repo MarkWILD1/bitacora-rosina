@@ -382,6 +382,14 @@ window.BITACORA_CHANGELOG = [
     ],
   },
   {
+    at: "2026-09-10T12:00:00-03:00",
+    module: "Pagos",
+    moduleHref: "propuestas/pagos.html",
+    title: "Segunda entrega: $ 40.600",
+    status: "done",
+    details: ["10/9/2026", "Segunda entrega"],
+  },
+  {
     at: "2026-08-28T12:53:00-03:00",
     module: "Accesos",
     moduleHref: "propuestas/accesos.html",
@@ -850,5 +858,13 @@ window.BITACORA_CHANGELOG = [
       "Canal: correo, disparado según las ventanas del calendario activo",
       "Complementa el seguimiento manual del ciclo",
     ],
+  },
+  {
+    at: "2026-08-05T12:00:00-03:00",
+    module: "Pagos",
+    moduleHref: "propuestas/pagos.html",
+    title: "Primer entrega: $ 20.000",
+    status: "done",
+    details: ["5/8/2026", "Primer entrega"],
   },
 ];

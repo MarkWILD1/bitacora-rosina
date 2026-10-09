@@ -32,6 +32,7 @@
     accesos: ["accesos"],
     bitacora: ["bitacora"],
     comercial: ["comercial"],
+    pagos: ["pagos"],
     marca: ["marca"],
   };
 

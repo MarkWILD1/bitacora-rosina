@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Cierre del ciclo: un informe por contratista y el resumen para el cliente." />
-  <title>Informes — Audita</title>
+  <meta name="description" content="Pagos registrados de las entregas de Audita." />
+  <title>Pagos — Audita</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -140,7 +140,7 @@
               </a>
             </li>
             <li>
-              <a class="sidebar__link" href="informes.html" aria-current="page" title="Informes">
+              <a class="sidebar__link" href="informes.html" title="Informes">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z" />
                   <path d="M14 3v5h5M9 13h6M9 17h4" />
@@ -173,7 +173,7 @@
               </a>
             </li>
             <li>
-              <a class="sidebar__link" href="pagos.html" title="Pagos">
+              <a class="sidebar__link" href="pagos.html" aria-current="page" title="Pagos">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                   <rect x="2" y="5" width="20" height="14" rx="2" />
                   <path d="M2 10h20" />
@@ -207,7 +207,7 @@
             <path d="M4 7h16M4 12h16M4 17h16" />
           </svg>
         </button>
-        <span class="app__bar-title">Informes</span>
+        <span class="app__bar-title">Pagos</span>
       </header>
 
       <div class="wrap">
@@ -223,11 +223,40 @@
         </header>
 
         <main class="card">
-          <p class="kicker">Seguimiento operativo</p>
-          <h1 class="display" id="pageTitle">Informes</h1>
-          <p class="meta">El informe individual se envía a cada contratista; el cierre del ciclo es el Resumen Rectificado. La exportación a PDF entra más adelante.</p>
+          <p class="kicker">Cuenta · <span class="badge badge--done">Hecho</span></p>
+          <h1 class="display" id="pageTitle">Pagos</h1>
+          <p class="meta">
+            Pagos registrados de las entregas de Audita.
+          </p>
 
-          <div id="changelog" class="changelog" data-module="informes" aria-live="polite" aria-label="Historial de implementaciones">
+          <table>
+            <thead>
+              <tr>
+                <th>Fecha</th>
+                <th>Cantidad</th>
+                <th>Concepto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>5/8/2026</td>
+                <td>$ 20.000</td>
+                <td>Primer entrega</td>
+              </tr>
+              <tr>
+                <td>10/9/2026</td>
+                <td>$ 40.600</td>
+                <td>Segunda entrega</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><strong>$ 60.600</strong></td>
+                <td><strong>Total</strong></td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div id="changelog" class="changelog" data-module="pagos" aria-live="polite" aria-label="Historial de pagos" style="margin-top: 28px;">
             <p class="empty-slot">Cargando actualizaciones…</p>
           </div>
 
