@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-09T00:30:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "El auditor avisa a contratistas y a la empresa, y recibe el enterado",
+    status: "done",
+    details: [
+      "Desde la barra superior, el auditor escribe un aviso y elige a quién llega",
+      "La campana marca el aviso y, al abrirlo, el modal del centro tiene el botón Enterado",
+      "Al pulsarlo, el auditor ve fecha, hora, dispositivo y el resto del acuse",
+    ],
+  },
+  {
     at: "2026-10-07T11:48:00-03:00",
     module: "Marca",
     moduleHref: "propuestas/marca.html",
