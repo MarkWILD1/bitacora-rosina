@@ -118,6 +118,22 @@ body.app {
   color: var(--cream);
 }
 
+.sidebar__logo-frame {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  line-height: 0;
+}
+
+.sidebar__logo {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+
 .sidebar__mark {
   display: flex;
   align-items: center;
@@ -403,9 +419,18 @@ body.sidebar-open .sidebar {
     gap: 0;
   }
 
-  body.sidebar-collapsed .sidebar__mark {
-    width: 32px;
-    height: 32px;
+  body.sidebar-collapsed .sidebar__logo-frame {
+    width: 44px;
+    height: 44px;
+    margin-inline: auto;
+  }
+
+  body.sidebar-collapsed .sidebar__logo {
+    width: 150px;
+    max-width: none;
+    height: auto;
+    margin-left: -7px;
+    margin-top: -1px;
   }
 
   body.sidebar-collapsed .sidebar__actions {
@@ -435,11 +460,18 @@ body.sidebar-open .sidebar {
   justify-content: center;
   gap: 6px;
   margin-bottom: 32px;
-  padding: 36px 20px;
+  padding: 22px 28px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, var(--burgundy) 0%, var(--plum) 100%);
-  box-shadow: 0 12px 36px rgba(120, 53, 62, 0.28);
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 36px rgba(44, 36, 40, 0.08);
   text-align: center;
+}
+
+.doc-header__logo {
+  display: block;
+  width: min(100%, 520px);
+  height: auto;
 }
 
 .doc-header__mark {

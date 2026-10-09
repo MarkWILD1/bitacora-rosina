@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-09T00:55:00-03:00",
+    module: "Marca",
+    moduleHref: "propuestas/marca.html",
+    title: "La bitácora muestra el logotipo oficial",
+    status: "done",
+    details: [
+      "El encabezado y la sidebar usan el lockup AUDITA con el isotipo y el rubro",
+      "Archivo: +LOGOTIPO-01",
+    ],
+  },
+  {
     at: "2026-10-09T00:30:00-03:00",
     module: "Tablero",
     moduleHref: "propuestas/tablero.html",
