@@ -34,6 +34,7 @@
     comercial: ["comercial"],
     pagos: ["pagos"],
     marca: ["marca"],
+    grafo: ["grafo"],
   };
 
   function escapeHtml(str) {

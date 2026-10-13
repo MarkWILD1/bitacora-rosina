@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-13T11:50:00-03:00",
+    module: "Grafo",
+    moduleHref: "propuestas/grafo.html",
+    title: "Queda publicado el mapa de cómo se conecta el sistema",
+    status: "done",
+    details: [
+      "1396 piezas y 3816 vínculos entre pantallas, documentos y la marca",
+      "El mapa agrupa el ciclo: calendario, solicitudes, revisión, informes y el portal del contratista",
+      "Lo más conectado es la base de datos, el ingreso del auditor y los botones de la interfaz",
+    ],
+  },
+  {
     at: "2026-10-13T11:28:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",

@@ -1093,6 +1093,20 @@ th {
   max-width: 1080px;
 }
 
+.wrap--graph {
+  max-width: 1180px;
+}
+
+.graph-frame {
+  display: block;
+  width: 100%;
+  height: min(78vh, 820px);
+  margin: 8px 0 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: #0f0f1a;
+}
+
 .brand-board {
   margin: 8px 0 8px;
   overflow: hidden;
