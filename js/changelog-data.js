@@ -5,6 +5,41 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-13T11:15:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El portal del contratista se organiza por frentes",
+    status: "done",
+    details: [
+      "Nuevos ingresos, en verde, carga una persona fuera de la ventana: alta, condiciones, cédula, carné y contrato",
+      "Auditoría despliega el Anexo A y los dos Anexo B: transporte de personas y transporte de carga",
+      "Funcionario, Vehículos y Empresa reemplazan el tab Documentos, con varios archivos en recibos y en Otros",
+    ],
+  },
+  {
+    at: "2026-10-09T21:00:00-03:00",
+    module: "Accesos",
+    moduleHref: "propuestas/accesos.html",
+    title: "El contratista ingresa en local con el usuario y el PIN guardados",
+    status: "done",
+    details: [
+      "El login ya no rellena la contraseña del contador encima del PIN",
+      "Con bosques@timbertec y el PIN de Accesos se abre el portal del contratista",
+    ],
+  },
+  {
+    at: "2026-10-09T20:30:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El Anexo A se puede producir en PDF",
+    status: "done",
+    details: [
+      "Al confirmar, el contratista escribe el nombre del responsable legal",
+      "El PDF lleva la planilla, los textos de responsabilidad, la IP y la fecha y hora",
+      "El botón Producir PDF está en Documentos del auditor y de la empresa",
+    ],
+  },
+  {
     at: "2026-10-09T01:34:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
