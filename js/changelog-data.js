@@ -5,6 +5,16 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-13T11:20:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El tab del contratista se llama Personas",
+    status: "done",
+    details: [
+      "Funcionario pasa a llamarse Personas en la sidebar y en la pantalla",
+    ],
+  },
+  {
     at: "2026-10-13T11:15:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
@@ -13,7 +23,7 @@ window.BITACORA_CHANGELOG = [
     details: [
       "Nuevos ingresos, en verde, carga una persona fuera de la ventana: alta, condiciones, cédula, carné y contrato",
       "Auditoría despliega el Anexo A y los dos Anexo B: transporte de personas y transporte de carga",
-      "Funcionario, Vehículos y Empresa reemplazan el tab Documentos, con varios archivos en recibos y en Otros",
+      "Personas, Vehículos y Empresa reemplazan el tab Documentos, con varios archivos en recibos y en Otros",
     ],
   },
   {
