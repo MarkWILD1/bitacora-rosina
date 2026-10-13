@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-13T11:25:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "Auditoría y Nuevos ingresos usan el color de Tablero",
+    status: "done",
+    details: [
+      "Auditoría deja de verse apagada y queda con el mismo tono que el resto de la sidebar",
+      "Nuevos ingresos deja el verde y usa el mismo color que Tablero",
+    ],
+  },
+  {
     at: "2026-10-13T11:20:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
