@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-13T11:28:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "El contratista recibe aviso de la fecha y la carga tardía queda marcada",
+    status: "done",
+    details: [
+      "Al habilitar al contratista, o al fijar o extender la entrega, le llega un aviso para darse por enterado",
+      "Fuera de la ventana puede subir igual: queda en amarillo como enviado con retraso y el auditor lo ve en la campana y en la columna Plazo",
+      "Las fechas del calendario y esas notificaciones se guardan en la base, no solo en el navegador",
+    ],
+  },
+  {
     at: "2026-10-13T11:25:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
