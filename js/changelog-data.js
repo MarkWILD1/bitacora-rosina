@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-14T08:10:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El menú del contratista agrupa la auditoría bajo un título",
+    status: "done",
+    details: [
+      "Debajo de Nuevos ingresos aparece el título Auditoría",
+      "El grupo que tenía ese nombre ahora se llama Anexos y sigue con el Anexo A y los dos Anexo B",
+      "Personas, Vehículos, Empresa y Mis datos quedan dentro de esa misma sección",
+    ],
+  },
+  {
     at: "2026-10-13T11:50:00-03:00",
     module: "Grafo",
     moduleHref: "propuestas/grafo.html",
