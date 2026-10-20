@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-20T09:53:00-03:00",
+    module: "Comercial",
+    moduleHref: "propuestas/comercial.html",
+    title: "Compra del sistema y despliegue en auditaestudio.com",
+    status: "done",
+    details: [
+      "Se compró el sistema Audita y quedó publicado en producción",
+      "El dominio en vivo es https://auditaestudio.com",
+      "También responde en https://www.auditaestudio.com",
+    ],
+  },
+  {
     at: "2026-10-20T09:44:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
