@@ -5,6 +5,17 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-20T09:44:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El PDF del informe muestra el logo de Audita",
+    status: "done",
+    details: [
+      "En la cabecera del informe descargado, el recuadro EMB pasa a ser el logotipo de Audita",
+      "El nombre del estudio, el procedimiento y el resto del informe quedan igual",
+    ],
+  },
+  {
     at: "2026-10-14T08:10:00-03:00",
     module: "Documentos",
     moduleHref: "propuestas/documentos.html",
