@@ -35,6 +35,7 @@
     pagos: ["pagos"],
     marca: ["marca"],
     grafo: ["grafo"],
+    acta: ["acta", "reunion"],
   };
 
   function escapeHtml(str) {

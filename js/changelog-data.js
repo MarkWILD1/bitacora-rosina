@@ -5,6 +5,33 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-20T22:06:00-03:00",
+    module: "Acta",
+    moduleHref: "propuestas/acta-2026-10-20.html",
+    title: "Acta del 20 de octubre: qué cambia en el portal del contratista",
+    status: "proposal",
+    details: [
+      "En octubre se declara septiembre, en grande, y el rango de carga queda chico al lado",
+      "Con la ventana abierta se saca el cartel de atraso; al cerrar, no se carga más hasta el levante",
+      "Los meses anteriores se suben en el mismo anexo, en un bloque aparte, y el auditor los ve separados",
+      "Nuevos ingresos: fecha de ingreso, constancia de alta de BPS, botón eliminar, y sin el texto de fuera de fecha",
+      "AUDITORÍA queda en mayúsculas; Mis datos se conserva. Presentismo, FSC y premios no entran en este ciclo",
+      "Acta completa: https://markwild1.github.io/bitacora-rosina/propuestas/acta-2026-10-20.html",
+    ],
+  },
+  {
+    at: "2026-10-20T18:30:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "Bosques del Cuareim queda en FYMNSA y la carga se guarda",
+    status: "done",
+    details: [
+      "El contratista pasa de TIMBERTEC a FYMNSA en el catálogo y en la base",
+      "Ingresos, anexos, documentos de empresa y vehículos se guardan y se ven en Documentos del auditor",
+      "Lo que ya estaba en el navegador del contratista se sube al volver a entrar al portal",
+    ],
+  },
+  {
     at: "2026-10-20T09:53:00-03:00",
     module: "Comercial",
     moduleHref: "propuestas/comercial.html",
