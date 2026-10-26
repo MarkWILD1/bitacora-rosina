@@ -5,6 +5,18 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-20T22:55:00-03:00",
+    module: "Calendarios",
+    moduleHref: "propuestas/calendarios.html",
+    title: "En octubre se carga septiembre",
+    status: "done",
+    details: [
+      "El calendario nombra el mes auditado y la ventana de carga cae en el mes siguiente",
+      "El contratista puede subir meses anteriores eligiendo el mes; el auditor los ve abajo, con fecha de envío",
+      "Cada subida avisa en la campana. Nuevos ingresos pide constancia de alta de BPS y fecha de este mes",
+    ],
+  },
+  {
     at: "2026-10-20T22:06:00-03:00",
     module: "Acta",
     moduleHref: "propuestas/acta-2026-10-20.html",
