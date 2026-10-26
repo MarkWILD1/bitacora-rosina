@@ -5,6 +5,56 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-10-25T21:48:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El informe se emite, se avisa y la empresa puede responder",
+    status: "done",
+    details: [
+      "El auditor guarda los textos de cada sección y emite el informe del mes",
+      "Al emitir, la campana avisa a la empresa y al contratista",
+      "La empresa marca si está de acuerdo y deja una réplica",
+      "Al lado de cada observación se ven las del mes anterior",
+    ],
+  },
+  {
+    at: "2026-10-25T21:46:00-03:00",
+    module: "Revisión",
+    moduleHref: "propuestas/revision.html",
+    title: "La revisión queda guardada y el contratista corrige",
+    status: "done",
+    details: [
+      "OK, observación y no aplica se guardan en la base, no en el navegador",
+      "El informe del mes se arma con esas marcas",
+      "En la ventana de rectificación el contratista ve cada observación y sube el documento que la corrige",
+    ],
+  },
+  {
+    at: "2026-10-25T21:44:00-03:00",
+    module: "Tablero",
+    moduleHref: "propuestas/tablero.html",
+    title: "El tablero sigue a los contratistas de la empresa",
+    status: "done",
+    details: [
+      "Tablero, solicitudes y el portal leen el mes que se audita y la lista real de la empresa",
+      "Las fases quedan en cuatro: entrega, control, rectificación e informe final",
+      "El porcentaje de entrega sale de lo cargado en el mes",
+    ],
+  },
+  {
+    at: "2026-10-25T21:42:00-03:00",
+    module: "Empresas",
+    moduleHref: "propuestas/empresas.html",
+    title: "Cada empresa tiene su lista de contratistas",
+    status: "done",
+    details: [
+      "El auditor da de alta, renombra o elimina contratistas de la empresa que tiene abierta",
+      "Cada alta crea el acceso del contratista",
+      "En la empresa se puede marcar quién mira, quién carga y quién responde el informe",
+      "El anexo del mes anterior se puede traer al mes que se carga",
+    ],
+  },
+  {
     at: "2026-10-20T22:55:00-03:00",
     module: "Calendarios",
     moduleHref: "propuestas/calendarios.html",
