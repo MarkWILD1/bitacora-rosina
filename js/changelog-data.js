@@ -5,6 +5,43 @@
  */
 window.BITACORA_CHANGELOG = [
   {
+    at: "2026-11-10T07:50:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "El operador ve el ciclo y anota al costado del informe",
+    status: "done",
+    details: [
+      "En Accesos se da de alta un operador, con el mismo escritorio que el socio",
+      "Puede trabajar el ciclo, pero no edita los textos del informe ni lo emite",
+      "Al abrir Ver informe deja observaciones al costado, con su nombre y la hora",
+      "Esas observaciones las ven el operador, los socios y el titular; la empresa y el contratista no",
+    ],
+  },
+  {
+    at: "2026-11-09T22:10:00-03:00",
+    module: "Informes",
+    moduleHref: "propuestas/informes.html",
+    title: "La empresa contratante ve el mismo informe que el auditor",
+    status: "done",
+    details: [
+      "El tab Informes muestra filtros, tarjetas y el informe laboral completo",
+      "Puede descargar el PDF y no puede editar textos ni emitir",
+      "Se quitó el acuerdo y la réplica de esa pantalla",
+    ],
+  },
+  {
+    at: "2026-11-09T21:40:00-03:00",
+    module: "Documentos",
+    moduleHref: "propuestas/documentos.html",
+    title: "El aviso de carga y el PDF nombran al auditor y a la empresa",
+    status: "done",
+    details: [
+      "Al subir el Anexo A y el Anexo B, el aviso dice que el auditor y la empresa contratante ya pueden ver los datos",
+      "El PDF del Anexo A ya no incluye el tip de confirmación",
+      "Debajo del título figura la empresa contratante, con el nombre registrado de esa empresa",
+    ],
+  },
+  {
     at: "2026-10-25T21:48:00-03:00",
     module: "Informes",
     moduleHref: "propuestas/informes.html",
